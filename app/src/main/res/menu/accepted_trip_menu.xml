@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_my_trip"
+        android:orderInCategory="100"
+        android:title="My Trip"
+        app:showAsAction="never" />
+
+    <item android:title="Friends Trip"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:id="@+id/action_friends_trip"/>
+</menu>

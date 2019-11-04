@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="4dp"
+    android:id="@+id/cv_friendsList"
+    app:cardCornerRadius="4dp"
+    android:layout_margin="10dp"
+    app:cardBackgroundColor="@color/whiteColor"
+    android:orientation="vertical"
+
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_margin="3dp"
+        android:background="@color/cardColor"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/whiteColor"
+            android:id="@+id/tv_rv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USERNAME"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textColor="@color/whiteColor"
+            android:id="@+id/tv_rv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="phone number"
+            android:textSize="14sp"
+
+            />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

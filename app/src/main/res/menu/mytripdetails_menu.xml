@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_add_expense"
+        android:orderInCategory="100"
+        android:title="Add Expense"
+        app:showAsAction="never" />
+
+    <item android:title="My Expense"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:id="@+id/action_my_expense"/>
+
+    <item android:title="Split Equally"
+        android:orderInCategory="300"
+        app:showAsAction="never"
+        android:id="@+id/action_split"/>
+
+    <item android:title="Cash Settlement"
+        android:orderInCategory="400"
+        app:showAsAction="never"
+        android:id="@+id/action_settlement"/>
+</menu>
